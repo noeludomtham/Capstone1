@@ -1,0 +1,56 @@
+.pimg1, .pimg2, .pimg3{
+    position:relative;
+    opacity:0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg1 {
+    background-image: url("/Users/catherineminguet/Downloads/images (18).jpeg");
+min-height: 100%;
+}
+.pimg2 {
+    background-image: url("/Users/catherineminguet/Downloads/download (15).jpeg");
+    min-height: 400px;
+}
+.pimg3 {
+    background-image: url("/Users/catherineminguet/Downloads/download (14).jpeg");
+    min-height: 400px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color: azure;
+    color: cornflowerblue;
+}
+.section-dark{
+    background-color: darkcyan;
+    color:darkturquoise;
+    width:100%;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: coral;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext .border{
+    background-color: darkslategrey;
+    color: cornsilk;
+    padding: 20px;
+}
+.ptext .border .trans{
+    background-color: transparent;
+}
+@media(max-width:568px){
+    .pimg1 .pimg2 .pimg3{
+        background-attachment: scroll;
+    }
+}
