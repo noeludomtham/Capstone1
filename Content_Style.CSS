@@ -7,15 +7,15 @@
     background-attachment: fixed;
 }
 .pimg1 {
-    background-image: url("/Users/catherineminguet/Downloads/images (18).jpeg");
-min-height: 100%;
+    background-image: url("/Users/catherineminguet/Downloads/download (14).jpeg");
+    min-height: 400px;
 }
 .pimg2 {
     background-image: url("/Users/catherineminguet/Downloads/download (15).jpeg");
     min-height: 400px;
 }
 .pimg3 {
-    background-image: url("/Users/catherineminguet/Downloads/download (14).jpeg");
+    background-image: url("/Users/catherineminguet/Downloads/images (18).jpeg");
     min-height: 400px;
 }
 .section{
